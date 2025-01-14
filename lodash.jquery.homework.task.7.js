@@ -33,7 +33,7 @@ function getSortedUsersByAge(users){
 }
 
 function getUserNames(users){
-    return _.map(users, user => user.name);
+    return _.map(users, 'name');
 }
 
 function getUserById(users, id){
